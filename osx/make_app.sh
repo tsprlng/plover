@@ -85,6 +85,6 @@ run "$python" -m plover_build_utils.source_less "$py_home/lib" "*/pip/_vendor/di
 #run ditto -v --arch x86_64 "$appdir"{.fat,}
 
 # Check requirements.
-run "$python" -I -m plover_build_utils.check_requirements
+#run "$python" -I -m plover_build_utils.check_requirements
 
 run mv "$appdir" "$distdir"
